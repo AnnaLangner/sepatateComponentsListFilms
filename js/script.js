@@ -7,8 +7,8 @@ var Movie = React.createClass ({
 			React.createElement('li', {},
 				React.createElement(MovieImage, {src: movie.src, alt: movie.title}),
 				React.createElement(MovieTitle, {title: movie.title}),
-		    	React.createElement(MovieDesc {desc: movie.desc})
-			);
+		    	React.createElement(MovieDesc, {desc: movie.desc})
+			)
 		)
 	},
 });
