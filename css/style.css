@@ -1,0 +1,11 @@
+body { bacground-color: #FFFFCC; margin: 0 auto; padding: 0; text-align: center; }
+
+body h1 { font-family: 'Playfair Display', serif; color: #FF6633; }
+
+body ul { list-style: none; }
+
+body ul li h2 { font-family: 'Open Sans Condensed', sans-serif; color: #990000; }
+
+body ul li h2 p { color: #FF6666; }
+
+body ul li img { width: 200px; height: 300px; }
