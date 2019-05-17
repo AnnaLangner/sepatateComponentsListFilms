@@ -23,7 +23,23 @@ var MovieImage = React.createClass ({
 	}
 });
 
+var MovieTitle = React.createClass({
+	propTypes: {
+		title: React.PropTypes.string,
+	},
+	render: function() {
+		return (React.createElement('h2', {}, this.props.movie.title))
+	},
+});
 
+var MovieDesc = React.createClass({
+	propTypes: {
+		desc: React.PropTypes,string,
+	},
+	render: function() {
+		return (React.createElement('p', {}, this.props.movie.desc))
+	},
+});
 
 var movies = [
 	{
